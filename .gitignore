@@ -1,0 +1,40 @@
+# Build directories
+build/
+bin/
+obj/
+
+# Compiled files
+*.exe
+*.so
+*.a
+*.o
+*.dll
+*.out
+
+# IDE files
+.vs/
+.vscode/
+CMakeSettings.json
+*.sln
+*.vcxproj*
+*.user
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+deps/
+
+# Local settings
+*.local
+
+# Logs and databases
+*.log
+*.sqlite
+
+# SFML binaries (if included)
+lib/
+
+
