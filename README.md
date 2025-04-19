@@ -27,7 +27,7 @@ A 2D fishing adventure game built with C++ and SFML. Catch rare fish, upgrade yo
 
 ### Build Instructions
 ```bash
-git clone https://github.com/<your-username>/AnglersOdyssey.git
+git clone https://github.com/saqib-rather/AnglersOdyssey.git
 cd AnglersOdyssey
 mkdir build && cd build
 cmake ..
