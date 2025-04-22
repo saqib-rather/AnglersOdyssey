@@ -3,7 +3,7 @@ project(AnglersOdyssey)
 
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(SFML 2.5 COMPONENTS graphics window system audio REQUIRED)
+find_package(SFML 2.5 COMPONENTS Graphics Window System Audio REQUIRED)  # Fixed component names
 
 add_executable(AnglersOdyssey
     src/main.cpp
@@ -17,4 +17,9 @@ add_executable(AnglersOdyssey
 )
 
 target_include_directories(AnglersOdyssey PRIVATE include)
-target_link_libraries(AnglersOdyssey sfml-graphics sfml-window sfml-system sfml-audio)
+target_link_libraries(AnglersOdyssey 
+    SFML::Graphics 
+    SFML::Window 
+    SFML::System 
+    SFML::Audio  # Use imported targets
+)
